@@ -43,7 +43,7 @@ We use many matlab packages in our implementation, including:
 - https://www.mathworks.com/matlabcentral/fileexchange/71638-text-wait-progress-bar
 - Dominic Siedhoff (2020). ADASYN (improves class balance, extension of SMOTE) (https://www.mathworks.com/matlabcentral/fileexchange/50541-adasyn-improves-class-balance-extension-of-smote), MATLAB Central File Exchange. Retrieved October 19, 2020.
 
-### Contato ###
+### Contact ###
 guischu09@gmail.com - Guilherme Schu
 
 
