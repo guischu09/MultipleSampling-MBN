@@ -1,0 +1,6 @@
+
+# Use plotscript_mayavi to generate a heatmap from a pre computed network in .csv
+
+python plotscript_mayavi.py --corr InputSample/sample_mbn.csv --out_hm sample_mbn_heatmap
+
+

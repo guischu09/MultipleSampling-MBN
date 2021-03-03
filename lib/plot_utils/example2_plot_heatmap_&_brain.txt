@@ -1,0 +1,8 @@
+
+# Use plotscript_mayavi to generate a heatmap from a pre computed network in .csv
+
+python plotscript_mayavi.py --corr InputSample/sample_mbn.csv --atlas InputSample/RatT1.mnc --coor InputSample/RatCoords.csv --out_bp sample_mbn_3Dbrain --brain_type rat --out_hm sample_mbn_heatmap
+
+
+
+

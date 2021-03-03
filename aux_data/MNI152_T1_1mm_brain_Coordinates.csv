@@ -1,0 +1,73 @@
+Labels,Brain region,x,y,z
+SFG_R,"""superior frontal gyrus"" right",21.9,31.12,43.82
+MFG_R,"""middle frontal gyrus"" right",37.59,33.06,34.04
+InfFG_R,"""inferior frontal gyrus"" right",50.2,14.98,21.41
+MedFG_R,"""medial frontal gyrus"" right",9.1,50.84,30.22
+MFOG_R,"""medial front-orbital gyrus"" right",8.16,51.67,-7.13
+LatFOG_R,"""lateral front-orbital gyrus"" right",5.067563,44.16277,-28.48607
+PreCG_R,"""precentral gyrus"" right",41.37,-8.21,52.09
+SFG_L,"""superior frontal gyrus"" left",-18.45,34.81,42.2
+MFG_L,"""middle frontal gyrus"" left",-33.43,32.73,35.46
+InfFG_L,"""inferior frontal gyrus"" left",-48.43,12.73,19.02
+MedFG_L,"""medial frontal gyrus"" left",-4.8,49.17,30.89
+MFOG_L,"""medial front-orbital gyrus"" left",-5.17,54.06,-7.4
+LatFOG_L,"""lateral front-orbital gyrus"" left",-5.067563,44.16277,-28.48607
+PreCG_L,"""precentral gyrus"" left",-38.65,-5.68,50.94
+CR_R,"""cingulate region"" right",8.02,-8.83,39.79
+CR_L,"""cingulate region"" left",-5.48,-14.92,41.57
+PostCG_R,"""postcentral gyrus"" right",41.43,-25.49,52.55
+SupPL_R,"""superior parietal lobule"" right",26.11,-59.18,62.06
+SupMg_R,"""supramarginal gyrus"" right",57.61,-31.5,34.48
+AngG_R,"""angular gyrus"" right",45.51,-59.98,38.63
+Precuneus_R,"""precuneus"" right",9.98,-56.05,43.77
+PostCG_L,"""postcentral gyrus"" left",-42.46,-22.63,48.92
+SupPL_L,"""superior parietal lobule"" left",-23.45,-59.56,58.96
+SupMg_L,"""supramarginal gyrus"" left",-55.79,-33.64,30.45
+AngG_L,"""angular gyrus"" left",-44.14,-60.82,35.59
+Precuneus_L,"""precuneus"" left",-7.24,-56.07,48.01
+Ins_R,"""insula"" right",39.02,6.25,2.08
+Ins_L,"""insula"" left",-35.13,6.65,3.44
+SupTG_R,"""superior temporal gyrus"" right",58.15,-21.78,6.8
+MTG_R,"""middle temporal gyrus"" right",57.47,-37.23,-1.47
+InfTG_R,"""inferior temporal gyrus"" right",53.69,-31.07,-22.32
+MedOTG_R,"""medial occipitotemporal gyrus/fusiform"" right",31.72169,-28.72343,-24.33476
+LatOTG_R,"""lateral occipitotemporal gyrus/fusiform"" right",42.00201,-28.72343,-25.85777
+ParahipG_R,"""parahippocampal gyrus"" right",25.38,-15.15,-20.47
+Uncus_R,"""uncus"" right",22.92279,0.147557,-41.80194
+SupTG_L,"""superior temporal gyrus"" left",-53.16,-20.68,7.13
+MTG_L,"""middle temporal gyrus"" left",-55.52,-33.8,-2.2
+InfTG_L,"""inferior temporal gyrus"" left",-49.77,-28.05,-23.17
+MedOTG_L,"""medial occipitotemporal gyrus/fusiform"" left",-31.72169,-28.72343,-24.33476
+LatOTG_L,"""lateral occipitotemporal gyrus/fusiform"" left",-42.00201,-28.72343,-25.85777
+ParahipG_L,"""parahippocampal gyrus"" left",-21.17,-15.95,-20.7
+Uncus_L,"""uncus"" left",-22.92279,0.147557,-41.80194
+SupOG_R,"""superior occipital gyrus"" right",24.29,-80.85,30.59
+MOG_R,"""middle occipital gyrus"" right",37.39,-79.7,19.42
+InfOG_R,"""inferior occipital gyrus"" right",38.16,-81.99,-7.61
+Cuneus_R,"""cuneus"" right",13.51,-79.36,28.23
+LingG_R,"""lingual gyrus"" right",16.29,-66.93,-3.87
+OP_R,"""occipital pole"" right",37.39,-93.78099,5.754752
+SupOG_L,"""superior occipital gyrus"" left",-16.54,-84.26,28.17
+MOG_L,"""middle occipital gyrus"" left",-32.39,-80.73,16.11
+InfOG_L,"""inferior occipital gyrus"" left",-36.36,-78.29,-7.84
+Cuneus_L,"""cuneus"" left",-5.93,-80.13,27.22
+LingG_L,"""lingual gyrus"" left",-14.62,-67.56,-4.63
+OP_L,"""occipital pole"" left",-37.39,-93.78099,5.754752
+Cerebellum_R,"""cerebellum"" right",34.91007,-60.68153,-42.99165
+HipForm_R,"""hippocampal formation"" right",29.23,-19.78,-10.33
+Amyg_R,"""amygdala"" right",27.32,0.64,-17.5
+Thal_R,"""thalamus"" right",13,-17.55,8.09
+SubThal_R,"""subthalamic nucleus"" right",13,-25.29935,-6.419762
+P_R,"""putamen"" right",27.78,4.91,2.46
+Gpal_R,"""globus palladus"" right",21.2,0.18,0.23
+CN_R,"""caudate nucleus"" right",14.84,12.07,9.42
+Nacc_R,"""nucleus accumbens"" right",11.68415,13.12646,-6.419762
+Cerebellum_L,"""cerebellum"" left",-34.91007,-60.68153,-42.99165
+HipForm_L,"""hippocampal formation"" left",-25.03,-20.74,-10.13
+Amyg_L,"""amygdala"" left",-23.27,-0.67,-17.14
+Thal_L,"""thalamus"" left",-10.85,-17.56,7.98
+SubThal_L,"""subthalamic nucleus"" left",-13,-25.29935,-6.419762
+P_L,"""putamen"" left",-23.91,3.86,2.4
+Gpal_L,"""globus palladus"" left",-17.75,-0.03,0.21
+CN_L,"""caudate nucleus"" left",-11.46,11,9.24
+Nacc_L,"""nucleus accumbens"" left",-11.68415,13.12646,-6.419762

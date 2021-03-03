@@ -1,0 +1,12 @@
+
+#First: Must generate heatmap with the corresponding color values for weights in the net
+python plotscript_mayavi.py --corr InputSample/sample_mbn.csv --out_hm sample_mbn_heatmap
+
+# After, run the following in matlab:
+
+net_csv = fullfile('InputSample','sample_mbn.csv');
+colormap_csv = fullfile('InputSample','sample_mbn_heatmap_colors.csv')
+labels_csv = fullfile('InputSample','RatLabels.csv');
+
+OutputFormat = 'png';
+plotscript_CircularGraph(net_csv,colormap_csv,labels_csv)

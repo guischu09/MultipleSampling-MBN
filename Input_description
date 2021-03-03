@@ -1,0 +1,33 @@
+Input description:
+
+-atlasFile: a string containing the full path for the T1 standard image in .mnc, or .nii/.nii.gz file. If this option is set to '' the code generates/saves only Heatmaps.
+
+-CoordsFile: a string containing the full path for a .csv file with the x, y ,z coordinates for the regions/volumes of interest (Labels) got on the same space of atlas_filename;
+This task has to be done manually using some image viewer and using your own anatomical knowlodge. Yes, that is not really pleasant.
+I have done this task for several regions of WSchiffer rat template and for a Human template. Check aux_data folder.
+
+-labelFile: a string containing the full path for a .csv file with the Labels
+
+-dataFile: a string containing the full path for a .csv file containing the PET (e.g. SUV/SUVr) computed values for each region.
+Each row of this matrix contains PET data for a single individual.
+While, each column contains information about a single ROI.
+
+The column header should be defined as the transpose of the CoordsFilename.
+The first element of each row should be defined as the class/group of that individual. 
+See folder 'Input' and follow that precise structure to generate your results.
+
+==========================================================
+
+Output: 
+
+'output' folder contains raw .csv files containing the GraphMeasures and the adjacency matrices for each Group/class in defined in dataFile. 
+
+==========================================================
+
+Results:
+
+'Results' folder contains heatmap plots, as well as 3d brain images
+
+==============================================================
+
+Parameters:
