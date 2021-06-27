@@ -2,7 +2,7 @@
 
 ### Repository Description ###
 
-This repository contains code of the Multiple Sampling (MS) scheme for contructing stable Metabolic Brain Networks. Paper will soon be available.
+This repository contains code of the Multiple Sampling (MS) scheme for contructing stable Metabolic Brain Networks. Check our preprint here: https://doi.org/10.1101/2021.03.16.435674.
 
 ### Setup ###
 
