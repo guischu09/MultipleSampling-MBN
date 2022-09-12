@@ -31,3 +31,11 @@ switch setup.balanced
             load(OverMatpath,'DATA')
         end
 end
+
+% Ensure group names are valid so matlab won't crash
+for u = 1:size(DATA,1)    
+    DATA{u,2} = matlab.lang.makeValidName(DATA{u,2});
+end
+
+end
+

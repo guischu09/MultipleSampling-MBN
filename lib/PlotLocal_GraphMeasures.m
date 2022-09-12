@@ -5,7 +5,7 @@ if ~exist(OutLocalGTM,'dir')
     mkdir(OutLocalGTM)
 end
 
-Measures = {'Degree','Strength','Local-Efficiency','Betweeness-Centrality'};
+Measures = {'Degree','Strength','Loc-Eff','Btw-Ctral'};
 Nmeasures = 4;
 
 for r = 1:length(Labels)

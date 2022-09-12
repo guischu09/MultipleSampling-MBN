@@ -96,7 +96,7 @@ def main(vmin, vmax, size_cte, atlas, coor, corr, out_format, out_bp, out_hm, ou
         brain = np.swapaxes(brain, 0, 2)
         
         # discretize volume surface
-        verts, faces = measure.marching_cubes_classic(brain, 10, spacing = (abs(x_step), abs(y_step), abs(z_step)))
+        verts, faces = measure.marching_cubes(brain, 10, spacing = (abs(x_step), abs(y_step), abs(z_step)),method='_lorensen')
         
         # Converts verts to three axis
         x, y, z = zip(*verts)

@@ -20,7 +20,7 @@ if isfield(setup,'ComputeNclosests')
     end
     
 else % Default Option
-    [output] = GetRepresentative(output);
+    [output] = GetRepresentative(output,setup);
 end
 
 

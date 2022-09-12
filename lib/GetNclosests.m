@@ -1,6 +1,7 @@
 function [output_updated] = GetNclosests(output,setup)
 
 %% Compute N most similar networks to the real criteria representation network
+
 [corrMat_index, corr_index,r_vector,pval_vector,r_RepresentativeMatrix,pval_RepresentativeMatrix] ...
     = ComputeNClosestsNetworks(output.DATA_r,output.DATA_pval,output.DATA_r_corrected, ...
     output.DATA_pval_corrected,setup);

@@ -15,14 +15,13 @@ for n = 1:size(output.DATA,1)
     class = output.DATA{n,2};
     DataHeader2{n} = class;
     
-    if isfield(setup,'ComputeNclosests')
-        if setup.ComputeNclosests && ~strcmp(setup.criteria_representation,'mode')
-            nets = output.DATA_r_corrected_NClosests(:,:,n);
+    if isfield(setup,'SampleMeasures')
+        if setup.SampleMeasures          
+            samples = randperm(setup.NsamplesMeasures);
+            nets = output.DATA_r_corrected(:,samples,n);            
         else
             nets = output.DATA_r_corrected(:,:,n);
         end
-    else
-        nets = output.DATA_r_corrected(:,:,n);
     end
     
     %% Extract Info

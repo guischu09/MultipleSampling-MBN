@@ -9,31 +9,29 @@ DataHeader = {'Degree','Strength','Local_Efficiency','Betweenness_Centrality','F
 
 for n = 1:size(output.DATA,1)
     
-    class = output.DATA{n,2};    
+    class = output.DATA{n,2};
     
-    if isfield(setup,'ComputeNclosests')
-        if setup.ComputeNclosests && ~strcmp(setup.criteria_representation,'mode')
-            nets = output.DATA_r_corrected_NClosests(:,:,n);
+    if isfield(setup,'SampleMeasures')
+        if setup.SampleMeasures
+            nets = output.DATA_r_corrected(:,setup.NsamplesMeasures,n);            
         else
             nets = output.DATA_r_corrected(:,:,n);
         end
-    else
-        nets = output.DATA_r_corrected(:,:,n);
     end
-        
+    
     %% Extract Info
     [Lvec,rangeK] = size(nets);
     proper_dim = sqrt(Lvec);
     
     %% Allocate Memory
-   
+    
     if n == 1
         GTM_data = cell(rangeK*size(output.DATA,1)*length(Labels),7);
         TotalWait = size(GTM_data,1);
     end
     
     %% Compute GTM
-        
+    
     for k = 1:rangeK
         
         % Reshape network as a matrix
@@ -42,7 +40,7 @@ for n = 1:size(output.DATA,1)
         % Remove links between nodes with themselves to compute the meas
         network = network - eye(proper_dim);
         
-        % Degree:        
+        % Degree:
         [deg] = degrees_und(network)';
         
         % Strength
@@ -54,9 +52,9 @@ for n = 1:size(output.DATA,1)
         % Betweeness Centrality
         BC = betweenness_wei(network)';
         
-        % Flow 
+        % Flow
         [fc,~,~] = flow_coef_bd(network);
-            
+        
         for qq = 1:length(deg)
             
             textwaitbar(cont,TotalWait,'Computing local graph measures')
@@ -73,7 +71,7 @@ for n = 1:size(output.DATA,1)
             
         end
         
-
+        
         
     end
 end

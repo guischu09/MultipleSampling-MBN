@@ -205,7 +205,6 @@ end
 
 
 %% Plot Connectome ring using the code from: https://github.com/paul-kassebaum-mathworks/circularGraph
-%
 
 if strcmp(setup.WhichPlot,'Heat&Circle')
     

@@ -2,7 +2,7 @@
 
 ### Repository Description ###
 
-This repository contains code of the Multiple Sampling (MS) scheme for contructing stable Metabolic Brain Networks. Check our preprint here: https://doi.org/10.1101/2021.03.16.435674.
+This repository contains code of the Multiple Sampling (MS) scheme for contructing stable Metabolic Brain Networks proposed at: https://doi.org/10.1101/2021.03.16.435674
 
 ### Setup ###
 
@@ -16,22 +16,21 @@ clone/download this repository.
 
 2) Open a terminal and type the following:
 
-> conda create -n mbn_env python=3.8 -y
-
-> source activate mbn_env
-
-> conda install -c anaconda seaborn -y; conda install -c conda-forge matplotlib -y; conda install -c anaconda pandas -y; conda install -c anaconda click -y; conda install -c anaconda basemap -y; conda install -c anaconda scikit-image -y; conda install -c conda-forge nibabel -y; conda install -c anaconda mayavi -y;	
+> conda create -n mbn_env -c conda-forge python=3.7 seaborn matplotlib pandas click basemap scikit-image nb_conda nibabel vtk netcdf4 mayavi
 
 3) open new terminal and type (in linux machines)
-> source activate mbn_env
+> conda activate mbn_env
 
 4) Finally, from the opened terminal open matlab.
 
-5) In Matlab, execute: 'run_example_human.m' or 'run_example_rat.m' to get an idea of how to use your own data.
+5) In Matlab, execute: "main.m" to get an idea of how to use your own data.
+
+### Inputs ###
+Check the Input directory for more details and follow the exact structure in the sample input files to generate your own results.
 
 ### Methods ###
 
-Check our paper for the details.
+Check our paper for the details: Stable brain PET metabolic networks using a multiple sampling scheme - https://doi.org/10.1101/2021.03.16.435674
 
 ### Credits ###
 
@@ -42,8 +41,9 @@ We use many matlab packages in our implementation, including:
 - https://github.com/rodyo/FEX-settingsdlg
 - https://www.mathworks.com/matlabcentral/fileexchange/71638-text-wait-progress-bar
 - Dominic Siedhoff (2020). ADASYN (improves class balance, extension of SMOTE) (https://www.mathworks.com/matlabcentral/fileexchange/50541-adasyn-improves-class-balance-extension-of-smote), MATLAB Central File Exchange. Retrieved October 19, 2020.
+- https://github.com/makto-toruk/FC_geodesic
 
-### Contact ###
+### Contato ###
 guischu09@gmail.com - Guilherme Schu
 
 
